@@ -28,7 +28,7 @@ This project implements a **Multilingual Transformer Model** for translating Eng
    - Includes positional encodings and multi-head attention for enhanced contextual understanding.
 
 3. **Training**:
-   - Trained on a dataset of ~45,000 sentences per language for 3 epochs.
+   - Trained on a dataset of ~45,000 sentences per language for 8 epochs.
    - Optimized using the Adam optimizer with a learning rate of 0.001.
 
 4. **Evaluation**:
@@ -44,19 +44,13 @@ This project implements a **Multilingual Transformer Model** for translating Eng
 ## Results
 
 - **Training Metrics**:
-  - Final Loss after 3 epochs:
-    - **Overall Loss**: 0.1546
-    - **Hindi Language Loss**: 0.0734
-    - **Telugu Language Loss**: 0.0734
+  - Final Loss after 8 epochs:
+    - **Epoch 1 Batch Loss - 2.3876, Hindi Loss - 1.2992, Telugu Loss - 1.2992
+    - **Epoch 8 Batch Loss - 0.0750, Hindi Loss - 1.2992, Telugu Loss - 1.2992
 
 - **Inference**:
-  - Successfully generates translations in both Hindi and Telugu.
-  - Example:
-    - Input: `This is a test sentence.`
-    - Output (Hindi): `यह एक परीक्षण वाक्य है।`
-    - Output (Telugu): `ఇది ఒక పరీక్ష వాక్యం.`
+  - While the project didn’t achieve its goal, it was an invaluable learning experience. If you’re exploring transformers or multilingual NLP, feel free to connect. I’d love to share insights or collaborate on future projects.
 
----
 
 ## How to Use
 
